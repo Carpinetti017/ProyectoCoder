@@ -1,0 +1,171 @@
+$azul: blue;
+$rojo: #f1184c;
+$verde: #aff28b;
+$amarillo: #f7dc66;
+$blanco: #ffffff;
+$negro: #000000;
+$rosa: #f89cfa;
+$rosita: #fbf0f0;
+$violeta: #c386f1;
+$celeste: #89d1dc;
+$letras: #4a503d;
+$colorcito: blanchedalmond;
+$xsamall:10px;
+$small: 20px;
+$large: 35px;
+$xLarge: 48;
+$extra:75px;
+$fonthtml: 62.5%;
+$vsmall:75vh;
+$footertam:30vh;
+$body:500vh;
+$header:100vh;
+
+
+.inicio{
+    background-color: $rosita;
+    height: 350vh;
+    width: 100%;
+
+
+    header{
+        height: 120vh;    
+    }
+    .container{
+        height: $vsmall;
+    }
+    .aos-init.aos-animate {
+        padding: $small;
+    }
+    .inicio__novedades{
+        height: 150vh;
+        width: 100%;
+        margin: 5%;
+        padding: 10%;
+
+    }
+    .button{
+        margin: $small;
+    }
+    .inicio__novedad__sector{
+        background-color: $blanco;
+        border-radius: $xsamall;
+
+        h2{
+            margin: 15px;
+            text-align: initial;
+        }
+        p{
+            margin: 15px;
+        }
+    }
+    footer{
+        height: $footertam;
+        background-color: $colorcito;
+        
+    }
+}
+.productos{
+    background-color: $rosita;
+    height: 350vh;
+    width: 100%;
+
+    .sectorproductos{   
+        font-size: medium;
+        margin: $xsamall;
+
+    }
+    .sectorproductos__titulo__principal{
+        color: $letras;
+        font-size: $large;
+        font-family: 'Montserrat', sans-serif;
+        margin: $small;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .sectorproductos__titulo__secundarios{
+        color: $letras;
+        margin: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sectorproductos__productos__imagen{
+        margin: 10%;
+        
+    }
+    .sectorproductos__productos__imagen__img{
+        border-radius: $xsamall;
+    }
+    .sectorproductos__productos__imagen__titulo{
+        height: auto;
+        width: 50%;
+        text-align: center;
+    }
+    .sectorproductos__productos{
+        height: $footertam;
+        justify-content: center;
+        margin: 30px;
+    }
+    p{
+        font-size: $small;
+        text-align: center;
+    }
+    footer{
+        margin: 15px;
+        height: 50vh;
+        background-color: $colorcito;
+    }
+    
+}
+.contactobody{
+    background-color: #fbf0f0;
+
+    .bg-light{
+        background-color:  #fbf0f0;
+    }
+    .formulario{
+        background-color: #fbf0f0;
+        margin: 25px;
+    }
+    .formulario__botonenviar{
+        margin: 15px;
+    }
+    footer{
+        margin: 15px;
+        height: 50vh;
+        background-color: $colorcito;
+    }
+}
+.seccionayuda{
+    background-color: #fbf0f0;
+    height: 150vh;
+    width: 100%;
+    .ayuda{
+        background-color: $blanco;
+        height: 100vh;
+        width: 100%;
+        margin: 15px;
+        border-radius: $small;
+        .ayuda__titulo__principal{
+            margin: 15px;
+            h2{
+                margin: $small;
+                text-decoration: underline;
+            }
+        }
+        .ayudar__titulo__secundario{
+            margin: $xsamall;
+            h3{
+                margin: 15px;
+            }
+        }
+        p{
+            margin: $small;
+        }
+    }
+    footer{
+        margin: 15px;
+        height: 50vh;
+        background-color: $colorcito;
+    }
+}

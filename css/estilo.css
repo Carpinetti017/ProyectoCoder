@@ -1,0 +1,106 @@
+.inicio {
+  background-color: #fbf0f0;
+  height: 350vh;
+  width: 100%; }
+  .inicio header {
+    height: 120vh; }
+  .inicio .container {
+    height: 75vh; }
+  .inicio .aos-init.aos-animate {
+    padding: 20px; }
+  .inicio .inicio__novedades {
+    height: 150vh;
+    width: 100%;
+    margin: 5%;
+    padding: 10%; }
+  .inicio .button {
+    margin: 20px; }
+  .inicio .inicio__novedad__sector {
+    background-color: #ffffff;
+    border-radius: 10px; }
+    .inicio .inicio__novedad__sector h2 {
+      margin: 15px;
+      text-align: initial; }
+    .inicio .inicio__novedad__sector p {
+      margin: 15px; }
+  .inicio footer {
+    height: 30vh;
+    background-color: blanchedalmond; }
+
+.productos {
+  background-color: #fbf0f0;
+  height: 350vh;
+  width: 100%; }
+  .productos .sectorproductos {
+    font-size: medium;
+    margin: 10px; }
+  .productos .sectorproductos__titulo__principal {
+    color: #4a503d;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline; }
+  .productos .sectorproductos__titulo__secundarios {
+    color: #4a503d;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif; }
+  .productos .sectorproductos__productos__imagen {
+    margin: 10%; }
+  .productos .sectorproductos__productos__imagen__img {
+    border-radius: 10px; }
+  .productos .sectorproductos__productos__imagen__titulo {
+    height: auto;
+    width: 50%;
+    text-align: center; }
+  .productos .sectorproductos__productos {
+    height: 30vh;
+    justify-content: center;
+    margin: 30px; }
+  .productos p {
+    font-size: 20px;
+    text-align: center; }
+  .productos footer {
+    margin: 15px;
+    height: 50vh;
+    background-color: blanchedalmond; }
+
+.contactobody {
+  background-color: #fbf0f0; }
+  .contactobody .bg-light {
+    background-color: #fbf0f0; }
+  .contactobody .formulario {
+    background-color: #fbf0f0;
+    margin: 25px; }
+  .contactobody .formulario__botonenviar {
+    margin: 15px; }
+  .contactobody footer {
+    margin: 15px;
+    height: 50vh;
+    background-color: blanchedalmond; }
+
+.seccionayuda {
+  background-color: #fbf0f0;
+  height: 150vh;
+  width: 100%; }
+  .seccionayuda .ayuda {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    margin: 15px;
+    border-radius: 20px; }
+    .seccionayuda .ayuda .ayuda__titulo__principal {
+      margin: 15px; }
+      .seccionayuda .ayuda .ayuda__titulo__principal h2 {
+        margin: 20px;
+        text-decoration: underline; }
+    .seccionayuda .ayuda .ayudar__titulo__secundario {
+      margin: 10px; }
+      .seccionayuda .ayuda .ayudar__titulo__secundario h3 {
+        margin: 15px; }
+    .seccionayuda .ayuda p {
+      margin: 20px; }
+  .seccionayuda footer {
+    margin: 15px;
+    height: 50vh;
+    background-color: blanchedalmond; }
