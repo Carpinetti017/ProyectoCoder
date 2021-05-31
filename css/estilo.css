@@ -1,9 +1,13 @@
 .inicio {
   background-color: #fbf0f0;
-  height: 350vh;
-  width: 100%; }
+  height: 200vh;
+  width: 100%;
+  margin: 0%; }
   .inicio header {
-    height: 120vh; }
+    height: 5.5%;
+    background-color: #f8f9fa !important; }
+  .inicio .carrusel {
+    height: 50%; }
   .inicio .container {
     height: 75vh; }
   .inicio .aos-init.aos-animate {
@@ -25,12 +29,16 @@
       margin: 15px; }
   .inicio footer {
     height: 30vh;
-    background-color: blanchedalmond; }
+    background-color: blanchedalmond;
+    height: 30%; }
 
 .productos {
   background-color: #fbf0f0;
   height: 350vh;
   width: 100%; }
+  .productos header {
+    height: 3.3%;
+    background-color: #f8f9fa !important; }
   .productos .sectorproductos {
     font-size: medium;
     margin: 10px; }
@@ -61,12 +69,15 @@
     font-size: 20px;
     text-align: center; }
   .productos footer {
-    margin: 15px;
-    height: 50vh;
-    background-color: blanchedalmond; }
+    height: 30vh;
+    background-color: blanchedalmond;
+    height: 20%; }
 
 .contactobody {
   background-color: #fbf0f0; }
+  .contactobody header {
+    height: 5.5%;
+    background-color: #f8f9fa !important; }
   .contactobody .bg-light {
     background-color: #fbf0f0; }
   .contactobody .formulario {
@@ -75,17 +86,20 @@
   .contactobody .formulario__botonenviar {
     margin: 15px; }
   .contactobody footer {
-    margin: 15px;
-    height: 50vh;
-    background-color: blanchedalmond; }
+    height: 30vh;
+    background-color: blanchedalmond;
+    height: 20%; }
 
 .seccionayuda {
   background-color: #fbf0f0;
   height: 150vh;
   width: 100%; }
+  .seccionayuda header {
+    height: 8%;
+    background-color: #f8f9fa !important; }
   .seccionayuda .ayuda {
     background-color: #ffffff;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: 15px;
     border-radius: 20px; }
@@ -101,6 +115,6 @@
     .seccionayuda .ayuda p {
       margin: 20px; }
   .seccionayuda footer {
-    margin: 15px;
-    height: 50vh;
-    background-color: blanchedalmond; }
+    height: 30vh;
+    background-color: blanchedalmond;
+    height: 40%; }
